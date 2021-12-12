@@ -22,7 +22,7 @@ class Cuba{
     }
 
     Cuba(int a , int b){
-       as = a;
+       this->as = a;
     }
 
     Cuba(int a){
@@ -63,7 +63,7 @@ int main(int argc, char const *argv[])
                            // C++ 允许在函数中声明函数
    
    // 2 .显示法
-    Cuba p1 = Cuba(12,13);  //有参构造
+    Cuba p1 = new Cuba(12,13);  //有参构造
     Cuba p2 = Cuba(c2);     //拷贝构造
    
     Cuba(12,15);            //匿名对象
